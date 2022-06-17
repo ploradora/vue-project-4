@@ -1,26 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <advice-card></advice-card>
+  <the-attribution></the-attribution>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import AdviceCard from "./components/AdviceCard.vue";
+import TheAttribution from "./components/TheAttribution.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    AdviceCard,
+    TheAttribution,
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
